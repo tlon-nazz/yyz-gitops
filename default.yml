@@ -27,7 +27,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: tlon-org
+    org_name: YYZ Fleet
 
   server_settings:
     ###########################################################
