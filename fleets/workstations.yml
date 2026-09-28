@@ -67,7 +67,9 @@ controls:
   ###########################################################
   apple_settings:
     configuration_profiles:
-      - paths: ../platforms/macos/declaration-profiles/*.json
+      - path: ../platforms/macos/declaration-profiles/macos27-deferral.json
+        labels_exclude_any:
+          - macOS 27 beta testers
       - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
           - Department - Engineering
